@@ -3,6 +3,8 @@ package hk_1603.neru_plus;
 import android.content.Context;
 import android.content.Context.*;
 import android.widget.Toast;
+import java.net.Socket;
+import java.net.UnknownHostException;
 
 import java.io.*;
 import java.util.Collections;
@@ -94,7 +96,7 @@ public class MorningState extends SasarachanState {
     }
 
     public void reply(String utteranceText) {
-        if(utteranceText.contains("おはよう")) {
+        if(utteranceText.contains("おはよう") || utteranceText.contains("起きた")) {
             if(secTime == -1) {
                 endTime = System.currentTimeMillis();
                 secTime = (int) ((endTime - startTime) / 1000);
@@ -102,7 +104,7 @@ public class MorningState extends SasarachanState {
                 ArrayList<Integer> secTimes = readTimeFromFile();
                 int todayTime = secTimes.get(0);
                 int yesterdayTime = secTimes.get(1);
-                if(todayTime <= yesterdayTime) {
+                if (todayTime <= yesterdayTime) {
                     praise();
                 } else {
                     scold();
@@ -146,5 +148,36 @@ public class MorningState extends SasarachanState {
         }
         Collections.reverse(secTimes); // 先頭に最新の記録時間がくるよう要素を逆順に並べる
         return secTimes;
+    }
+
+    public void moeAct() {
+        Runnable sender = new Runnable() {
+            @Override
+            public void run() {
+                String address = "192.168.63.151";
+                int port = 5800;
+                Socket socket = null;
+                try {
+                    socket = new Socket(address, port);
+                    PrintWriter pw = new PrintWriter(socket.getOutputStream(), true);
+                    String sendTxt = "hogehoge";
+                    pw.println(sendTxt);
+                } catch(UnknownHostException e) {
+                    e.printStackTrace();
+                } catch(IOException e) {
+                    e.printStackTrace();
+                }
+                if(socket != null) {
+                    try {
+                        socket.close();
+                        socket = null;
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        };
+        Thread th = new Thread(sender);
+        th.start();
     }
 }

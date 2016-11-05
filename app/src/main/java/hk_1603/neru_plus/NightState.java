@@ -10,6 +10,8 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
+import java.net.Socket;
+import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
@@ -151,5 +153,36 @@ public class NightState extends SasarachanState {
         }
         Collections.reverse(secTimes); // 先頭に最新の記録時間がくるよう要素を逆順に並べる
         return secTimes;
+    }
+
+    public void moeAct() {
+        Runnable sender = new Runnable() {
+            @Override
+            public void run() {
+                String address = "192.168.63.151";
+                int port = 5800;
+                Socket socket = null;
+                try {
+                    socket = new Socket(address, port);
+                    PrintWriter pw = new PrintWriter(socket.getOutputStream(), true);
+                    String sendTxt = "hogehoge";
+                    pw.println(sendTxt);
+                } catch(UnknownHostException e) {
+                    e.printStackTrace();
+                } catch(IOException e) {
+                    e.printStackTrace();
+                }
+                if(socket != null) {
+                    try {
+                        socket.close();
+                        socket = null;
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        };
+        Thread th = new Thread(sender);
+        th.start();
     }
 }

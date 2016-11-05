@@ -34,6 +34,7 @@ public class Sasarachan extends ImageView {
                 break;
             case 1:
                 state.continuePropose();
+                state.moeAct();
                 break;
             case 2:
                 state.greet();

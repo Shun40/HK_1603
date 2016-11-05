@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void setupSasarachan() {
         sasarachan = new Sasarachan(this);
-        sasarachan.setState(new NightState(sasarachan)); // 起床時 or 就寝時の状態をセット
+        sasarachan.setState(new MorningState(sasarachan)); // 起床時 or 就寝時の状態をセット
         RelativeLayout.LayoutParams param = new RelativeLayout.LayoutParams(WC, WC);
         param.addRule(RelativeLayout.CENTER_HORIZONTAL);
         param.addRule(RelativeLayout.BELOW, speechRecogButton.getId());

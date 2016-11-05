@@ -21,4 +21,5 @@ public abstract class SasarachanState {
     public abstract void praise();
     public abstract void scold();
     public abstract void reply(String utteranceText);
+    public abstract void moeAct();
 }

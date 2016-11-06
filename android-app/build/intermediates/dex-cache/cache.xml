@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_711935432865851cc6d138a5ca8244c2454853a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_abaefc8864d3cc5117e4ef9f9b8760c30a0b2d38\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shun\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_bf8fe78a1b7735c37c2534c48253a29c74fb4ae9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8453f3115ec39ba29eae6d3d80874a79c638f9a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1634510333a6bc9ca334b06896ccb8f63df27d24">
+        <dex dex="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d0097c208bfe1822151f420be36bacf506f726bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_5d832730e6802caed551f4d91afb40484f1749d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1ba8398d874bbe3677c1f8582c842ba41d91f7b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_05047c504c2d90ed882c914ce567e13663e764ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_394f1faef077d479a8788c98e3094277901f2412\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_cef88d005024421e2a8ca6ea7d1b6d5ff3398a8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_cf0cb34530862206cee7d787ac1f1e70706e4c2d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="04a1ed055ad2abcfc6e2937ecc5b9b7fad78f6ec">
+        <dex dex="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d1b58030c79937c84261279549c12079c9685aed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_295389bc7ec6e96807e5bd27c5371ab2f7ead1c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_3c98530a3a55ca722e80df7217be49a761486626\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_2d518aa89253a12ef1622923546746913c8aaa10\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_dc58ef9cb11e1855fcb4b553acafd07445b81ab1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Shun\AndroidStudioProjects\Neru-Plus\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_951c2c0fb2ac2dba04334e361e60893e9eb12041\classes.dex" />
+    </item>
+
+</items>
